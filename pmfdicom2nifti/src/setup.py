@@ -7,9 +7,9 @@ from distutils.core import setup
 
 setup(name='dicom2nifti',
       version='0.6',
-      description='A simple Philips MR Multiframe dicom to nifti converter',
+      description='A Philips MR Multiframe dicom to nifti converter',
       author='Gianlorenzo Fagiolo',
-      url='https://github.com/gianlo/pynii',
+      url='https://github.com/gianlo/philipsDcm2Nifti',
       license='License :: OSI Approved :: MIT License',
       requires= ['numpy', 'dicom', 'philips_dcm'],
       py_modules=['dicom2nifti'])
