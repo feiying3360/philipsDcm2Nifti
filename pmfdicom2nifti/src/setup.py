@@ -11,5 +11,5 @@ setup(name='dicom2nifti',
       author='Gianlorenzo Fagiolo',
       url='https://github.com/gianlo/philipsDcm2Nifti',
       license='License :: OSI Approved :: MIT License',
-      requires= ['numpy', 'dicom', 'philips_dcm'],
+      requires= ['numpy', 'dicom', 'philips_dcm', 'pynii'],
       py_modules=['dicom2nifti'])
