@@ -17,8 +17,13 @@ Make sure the required packages are installed in your python distribution.
 To install the required packages either use easy_install or pip.
 Then install the libraries by getting them from the repositories listed and following the installation instructions.
 
-Then open a terminal with the correct admin rights.
-Change directory to the src folder of this project.
+No further installation is required.
+
+Use:
+
+In order to use the converter, open a terminal, change directory to the src folder of this project.
 And execute the following command:
 
-python setup.py install
+python dicom2nifti.py
+
+A help text will be printed explaining how to use this converter.
